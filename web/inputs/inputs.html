@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imputs</title>
+     <style>
+      .inputcheck{
+        border: 3px solid green;
+      }
+      .inputs{
+        border: 3px dashed red;
+      }
+      inputradio{
+        border: 3px solid blue;
+      }
+      
+
+     </style>
+
+</head>
+<body>
+    <h1>principais inputs</h1>
+    
+    <div>
+        <h2>do que voçe mais gosta</h2>
+        <input type="checkbox" id="nada">
+        <label for="nada">nada</label>
+        <!--para selecionar clicando no nome eu preciso adicionar um atributo id="" no
+         input e depois na label no for="" irei dar um nome do id que criei-->
+
+        <input type="checkbox" id="futebol">
+        <label for="futebol">futebol</label>
+
+        <input type="checkbox" id="cinema">
+        <label for="cinema">cinema</label>
+
+        <input type="checkbox" id="praia">
+        <label for="praia">praia</label>
+
+        <input type="checkbox" id="casa">
+        <label for="casa">casa</label>
+    </div>
+    <div>
+        <h2>tela de cadastro</h2>
+
+        <label for="">nome</label>
+        <input type="nome">
+
+        <label for="">senha</label>
+        <input type="senha">
+
+        <label for="">passsword</label>
+        <input type="password">
+         
+        <input type="button" value="mostra senha">
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+       <div>
+        <div class="inputradio">
+            <h2>opções de escolha </h2>
+
+            <input type="radio" name="opcao" id="doce">
+        <label for="doce">doce</label>
+
+        <input type="radio" name="opcao" id="salgado">
+        <label for="salgado">salgado</label>
+
+        <input type="radio" name="opcao" id="salgado/doce">
+        <label for="salgado/doce">salgado/doce</label>
+
+        </div class="imputdate" >
+    </div>
+    
+    </div>
+</body>
+</html>
